@@ -12,3 +12,51 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav{
+    height: 7rem;
+    background-color: #3A546D;
+    color: white;
+}
+.link{
+    width: 17rem;
+}
+
+.menu-icon{display: none;}
+
+.container-fluid{
+    background-color: #1ABC9C;
+    height: 30rem;
+}
+
+.container>img{
+    max-width: calc((100% / 3) - 1rem );
+    padding-bottom: 2rem;
+}
+
+.green{
+    background-color: #1ABC9C;
+    border: none;
+}
+
+.footer-color1{
+    background-color: #3A546D;;
+    height: 13rem;
+}
+
+.footer-color2{
+    background-color: #2C3E50;
+    height: 6rem;
+}
+
+@media screen and (max-width:768px) {
+    .container>img{
+        max-width: calc((100% / 2) - 1rem );
+    }
+}
+
+@media screen and (max-width:425px) {
+    .container>img{
+        max-width: 100%;
+    }
+}
