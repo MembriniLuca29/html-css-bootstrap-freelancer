@@ -26,9 +26,23 @@ nav{
 
 .container-fluid{
     background-color: #1ABC9C;
-    height: 30rem;
 }
 
+.avatar{
+    padding-top: 3rem;
+    width: 20rem;
+}
+
+.line{
+    width: 200px;
+    height: 0.2rem;
+    background-color: white;
+}
+
+.fa-star{
+    padding: 0 2rem;
+    font-size: 3rem;
+}
 .container>img{
     max-width: calc((100% / 3) - 1rem );
     padding-bottom: 2rem;
@@ -37,6 +51,19 @@ nav{
 .green{
     background-color: #1ABC9C;
     border: none;
+}
+
+.line2{
+    width: 200px;
+    height: 0.2rem;
+    background-color: black;
+}
+.line2c{
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 3rem;
 }
 
 .footer-color1{
