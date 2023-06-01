@@ -11,21 +11,21 @@
 </head>
 <body>
   <header>
-    <nav class="navbar-nav flex-row justify-content-around align-items-center">
+    <nav class="navbar-nav flex-row justify-content-around align-items-center pt-3 pb-3 text-white fixed-top">
       <div><h2 class="h2 title-logo fw-bold">START BOOTSTRAP</h2></div>
       <div class="link  d-flex flex-row justify-content-around text-white">
         <a href="#portfolio" class="text-white text-decoration-none fw-bold">PORTFOLIO</a>
         <a href="" class="text-white text-decoration-none fw-bold">ABOUT</a>
         <a href="" class="text-white text-decoration-none fw-bold" >CONTACT</a>
       </div>
-      <div class="menu-icon"></div>
+      <div class="menu-icon"><i class="fa-solid fa-bars border border-light"></i></div>
     </nav>
-    <div class="container-fluid d-flex flex-column align-items-center text-white ">
-      <img src="img/avatar.svg" alt="" class="avatar pb-3">
+    <div class="container-fluid d-flex flex-column align-items-center text-white mt-5">
+      <img src="img/avatar.svg" alt="" class="avatar pb-3 pt-5">
       <h1 class="h1 title pb-4">START BOOTSTRAP </h1>
       <div class="d-flex align-items-center pb-4">
         <div class="line"></div>
-        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star px-4"></i>
         <div class="line"></div>
       </div>
       <h3 class="h3 pb-5"> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTATOR</h3>
@@ -36,10 +36,10 @@
     <h2 class="h1 title pb-4 pt-5 text-center" id="portfolio">PORTFOLIO</h2>
     <div class="line2c">
       <div class="line2"></div>
-      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star px-4"></i>
       <div class="line2"></div>
     </div>
-    <div class="container">
+    <div class="container pb-5">
       <img src="/img/cabin.png" alt="">
       <img src="/img/cake.png" alt="">
       <img src="/img/circus.png" alt="">
@@ -52,39 +52,72 @@
       <h2 class="h1 title pb-4 pt-4">ABOUT</h2>
       <div class="d-flex align-items-center pb-4 justify-content-center">
         <div class="line"></div>
-        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star px-4"></i>
         <div class="line"></div>
       </div>
+      
+      <div class="container d-flex text-start fs-2  justify-content-center my-container">
+        <div class="text-white "><p>Freelancer is a free cootsrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheet for easy customization.</p></div>
+        <div class="text-white "><p>Whether you're  a student looking to showcase your work,  a professional looking to attract clients, or a graphic artist looking to share your project, this templete is the perfect starting point!</p></div>
+      </div>
+      <div class="py-5"><button type="button" class="btn btn-outline-light fs-2">download</button></div>
+
+
     </div>
 
-      <h2 class="h2"></h2>
-    <div class="container">
+    <h2 class="h1 title pb-4 pt-5 text-center" id="portfolio">CONTACT ME</h2>
+    <div class="line2c">
+      <div class="line2"></div>
+      <i class="fa-solid fa-star px-4"></i>
+      <div class="line2"></div>
+    </div>
+    <div class="container pb-5">
+
       <table class="table">
         <tbody>
           <tr>
-            <th scope="row"></th>
             <td colspan="3">Name</td>
           </tr>
           <tr>
-            <th scope="row"></th>
             <td colspan="3"> Email Address</td>
           </tr>
           <tr>
-            <th scope="row"></th>
             <td colspan="3">Phone number</td>
           </tr>
           <tr>
-            <th scope="row"></th>
-            <td colspan="3">message</td>
+            <td colspan="3" class="pb-5 mb-5">message</td>
           </tr>
         </tbody>
       </table>
+
       <input class="btn btn-primary green" type="button" value="send">
     </div>
   </main>
   <footer>
-    <div class="container-fluid footer-color1"></div>
-    <div class="container-fluid footer-color2"></div>
+    <div class="container-fluid footer-color1 py-5 ">
+      <div class="container d-flex justify-content-between mycont">
+        <div class="px-4 text-center text-white">
+          <h2 class="h2">LOCATION</h2>
+          <h6 class="h6">2215 John Drive Clark, MO 54243</h6>
+        </div>
+        <div class="px-4 text-white text-center">
+          <h2 class="pb-2">AROUND THE WEB</h2>
+          <h3 class="text-white d-flex justify-content-between">
+            <a href="" class="border border-light p-3 rounded-circle text-white "><i class="fa-brands fa-facebook-f "></i></a>
+            <a href="" class="border border-light p-3 rounded-circle text-white "><i class="fa-brands fa-google-plus-g "></i></a>
+            <a href="" class="border border-light p-3 rounded-circle text-white"><i class="fa-brands fa-twitter "></i></a>
+            <a href="" class="border border-light p-3 rounded-circle text-white"><i class="fa-brands fa-linkedin-in "></i></a>
+          </h3>
+        </div>
+        <div class="px-4 text-center text-white">
+          <h2 class="h2">ABOUT FREELANCER</h2>
+          <h6 class="h6">Freelance is a free to use, open source Bootstrap theme created by <span class="text-info-emphasi">Start Bootstrap</span>.</h6>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer-color2 text-center py-4 text-white">
+      <h6 >Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</h6>
+    </div>
   </footer>
 </body>
 </html>

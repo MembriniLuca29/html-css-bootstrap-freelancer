@@ -14,10 +14,9 @@
 }
 
 nav{
-    height: 7rem;
     background-color: #3A546D;
-    color: white;
 }
+
 .link{
     width: 17rem;
 }
@@ -29,7 +28,6 @@ nav{
 }
 
 .avatar{
-    padding-top: 3rem;
     width: 20rem;
 }
 
@@ -40,7 +38,6 @@ nav{
 }
 
 .fa-star{
-    padding: 0 2rem;
     font-size: 3rem;
 }
 .container>img{
@@ -48,6 +45,9 @@ nav{
     padding-bottom: 2rem;
 }
 
+.my-container{
+    padding: 0 3rem;
+}
 .green{
     background-color: #1ABC9C;
     border: none;
@@ -68,12 +68,17 @@ nav{
 
 .footer-color1{
     background-color: #3A546D;;
-    height: 13rem;
 }
 
 .footer-color2{
     background-color: #2C3E50;
-    height: 6rem;
+}
+.mycont>div{
+width: calc(100%/3);
+}
+
+.text-info-emphasi{
+    color: rgb(105, 255, 255);
 }
 
 @media screen and (max-width:768px) {
@@ -86,4 +91,24 @@ nav{
     .container>img{
         max-width: 100%;
     }
-}
+
+    .link{
+        display: none;
+    }
+
+    .menu-icon{
+        display: initial;
+    }
+
+    .my-container{
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .mycont{flex-wrap: wrap;}
+    .mycont>div{
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    }
