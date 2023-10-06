@@ -94,6 +94,15 @@ width: calc(100%/3);
     .container>img{
         max-width: calc((100% / 2) - 1rem );
     }
+
+    .rounded-circle{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -120,4 +129,8 @@ width: calc(100%/3);
         padding: 2rem 0;
     }
 
+    h3{
+        text-align: center;
+        width: 250px;
     }
+}
